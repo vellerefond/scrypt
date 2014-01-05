@@ -4,4 +4,5 @@ scrypt is a command line tool for encryption. It uses the Blake2b (https://blake
 <strong>--help&nbsp;|&nbsp;-h</strong>:&nbsp;help<br />
 <strong>-e</strong>:&nbsp;encrypt<br />
 <strong>-d</strong>:&nbsp;decrypt<br /><br />
-<strong>Why it was built:</strong>&nbsp;tar cj ... | scrypt -e | ncat ... <-- internet --> ncat ... | scrypt -d | tar xj
+<strong>How to build:</strong>&nbsp;"make" creates "scrypt" (or "scrypt.exe" in cygwin) in the project's root directory.<br /><br />
+<strong>Why it was built:</strong>&nbsp;tar cj ... | scrypt -e | ncat ... <-- internet --> ncat ... | scrypt -d | tar xj (i.e., easy usage in a pipeline).
